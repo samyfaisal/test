@@ -1,0 +1,1282 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Service\\Zenda.Service.csproj": {}
+  },
+  "projects": {
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.ARI\\Zenda.ARI.csproj": {
+      "version": "1.2.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.ARI\\Zenda.ARI.csproj",
+        "projectName": "Zenda.ARI",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.ARI\\Zenda.ARI.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.ARI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FubarCoder.RestSharp.Portable.Core": {
+              "target": "Package",
+              "version": "[4.0.8, )"
+            },
+            "FubarCoder.RestSharp.Portable.HttpClient": {
+              "target": "Package",
+              "version": "[4.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Threading.Thread": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.ThreadPool": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "WebSocket4Net": {
+              "target": "Package",
+              "version": "[0.15.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Common\\Zenda.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Common\\Zenda.Common.csproj",
+        "projectName": "zenda-common",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Common\\Zenda.Common.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.CrmIntegration\\Zenda.CrmIntegration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.CrmIntegration\\Zenda.CrmIntegration.csproj",
+        "projectName": "zenda-crmintegration",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.CrmIntegration\\Zenda.CrmIntegration.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.CrmIntegration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj",
+        "projectName": "zenda-dal.common",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Common\\Zenda.Common.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Common\\Zenda.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Mapper\\Zenda.DAL.Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Mapper\\Zenda.DAL.Mapper.csproj",
+        "projectName": "zenda-dal.mapper",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Mapper\\Zenda.DAL.Mapper.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Mapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Reporting\\Zenda.DAL.Reporting.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Reporting\\Zenda.DAL.Reporting.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Remote.Arguments\\Zenda.Remote.Arguments.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Remote.Arguments\\Zenda.Remote.Arguments.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Reporting\\Zenda.DAL.Reporting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Reporting\\Zenda.DAL.Reporting.csproj",
+        "projectName": "zenda-dal.reporting",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Reporting\\Zenda.DAL.Reporting.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Reporting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DevExpress.Drawing": {
+              "target": "Package",
+              "version": "[23.1.5, )"
+            },
+            "DevExpress.Reporting.Core": {
+              "target": "Package",
+              "version": "[23.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL\\Zenda.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL\\Zenda.DAL.csproj",
+        "projectName": "zenda-dal",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL\\Zenda.DAL.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.*, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.90, )"
+            },
+            "fluentnhibernate": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "nhibernate": {
+              "target": "Package",
+              "version": "[5.5.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Engine\\Zenda.Engine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Engine\\Zenda.Engine.csproj",
+        "projectName": "zenda-engine",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Engine\\Zenda.Engine.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Engine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.ARI\\Zenda.ARI.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.ARI\\Zenda.ARI.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Common\\Zenda.Common.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Common\\Zenda.Common.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.CrmIntegration\\Zenda.CrmIntegration.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.CrmIntegration\\Zenda.CrmIntegration.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Mapper\\Zenda.DAL.Mapper.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Mapper\\Zenda.DAL.Mapper.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL\\Zenda.DAL.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL\\Zenda.DAL.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.GenBase\\Zenda.GenBase.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.GenBase\\Zenda.GenBase.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.LIC\\Zenda.LIC.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.LIC\\Zenda.LIC.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Mailer\\Zenda.Mailer.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Mailer\\Zenda.Mailer.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Provisioning\\Zenda.Provisioning.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Provisioning\\Zenda.Provisioning.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Remote.Arguments\\Zenda.Remote.Arguments.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Remote.Arguments\\Zenda.Remote.Arguments.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Tcp\\Zenda.Tcp.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Tcp\\Zenda.Tcp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.GenBase\\Zenda.GenBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.GenBase\\Zenda.GenBase.csproj",
+        "projectName": "zenda-genbase",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.GenBase\\Zenda.GenBase.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.GenBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Common\\Zenda.Common.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Common\\Zenda.Common.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL.Common\\Zenda.DAL.Common.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL\\Zenda.DAL.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.DAL\\Zenda.DAL.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Remote.Arguments\\Zenda.Remote.Arguments.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Remote.Arguments\\Zenda.Remote.Arguments.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "fluent": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.LIC\\Zenda.LIC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.LIC\\Zenda.LIC.csproj",
+        "projectName": "zenda-lic",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.LIC\\Zenda.LIC.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.LIC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj",
+        "projectName": "zenda-loging",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Mailer\\Zenda.Mailer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Mailer\\Zenda.Mailer.csproj",
+        "projectName": "zenda-mailer",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Mailer\\Zenda.Mailer.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Mailer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Provisioning\\Zenda.Provisioning.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Provisioning\\Zenda.Provisioning.csproj",
+        "projectName": "zenda-provisioning",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Provisioning\\Zenda.Provisioning.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Provisioning\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Remote.Arguments\\Zenda.Remote.Arguments.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Remote.Arguments\\Zenda.Remote.Arguments.csproj",
+        "projectName": "zenda-remote.arguments",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Remote.Arguments\\Zenda.Remote.Arguments.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Remote.Arguments\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Service\\Zenda.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Service\\Zenda.Service.csproj",
+        "projectName": "zenda-service",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Service\\Zenda.Service.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.ARI\\Zenda.ARI.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.ARI\\Zenda.ARI.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Engine\\Zenda.Engine.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Engine\\Zenda.Engine.csproj"
+              },
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Systemd": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Tcp\\Zenda.Tcp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Tcp\\Zenda.Tcp.csproj",
+        "projectName": "zenda-tcp",
+        "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Tcp\\Zenda.Tcp.csproj",
+        "packagesPath": "C:\\Users\\Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Tcp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/free/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj": {
+                "projectPath": "E:\\Zenda_Code\\samy-copy\\Zenda\\Zenda.Loging\\Zenda.Loging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Fleck": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

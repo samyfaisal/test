@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <UserSecretsId>dotnet-Zenda.Service-ACB757EF-3727-4FD3-9009-E1E0484D6DC9</UserSecretsId>
+        <AssemblyName>zenda-service</AssemblyName>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Platform)'=='AnyCPU'">
+        <OutputPath>../../bin/engine/</OutputPath>
+        <Configuration>Release</Configuration>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="8.0.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Zenda.Engine\Zenda.Engine.csproj" />
+        <ProjectReference Include="..\Zenda.Loging\Zenda.Loging.csproj" />
+        <ProjectReference Include="..\Zenda.ARI\Zenda.ARI.csproj" />
+    </ItemGroup>
+</Project>

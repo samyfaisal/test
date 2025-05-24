@@ -1,0 +1,17 @@
+/media/mlotfy/Software/Software/ZENDA/projects/bin/engine/net8.0/appsettings.json
+/media/mlotfy/Software/Software/ZENDA/projects/bin/engine/net8.0/zenda-service
+/media/mlotfy/Software/Software/ZENDA/projects/bin/engine/net8.0/zenda-service.deps.json
+/media/mlotfy/Software/Software/ZENDA/projects/bin/engine/net8.0/zenda-service.runtimeconfig.json
+/media/mlotfy/Software/Software/ZENDA/projects/bin/engine/net8.0/zenda-service.dll
+/media/mlotfy/Software/Software/ZENDA/projects/bin/engine/net8.0/zenda-service.pdb
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/Zenda.Service.csproj.AssemblyReference.cache
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/Zenda.Service.GeneratedMSBuildEditorConfig.editorconfig
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/Zenda.Service.AssemblyInfoInputs.cache
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/Zenda.Service.AssemblyInfo.cs
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/Zenda.Service.csproj.CoreCompileInputs.cache
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/Zenda.Se.7C60D49D.Up2Date
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/zenda-service.dll
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/refint/zenda-service.dll
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/zenda-service.pdb
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/Zenda.Service.genruntimeconfig.cache
+/media/mlotfy/Software/Software/ZENDA/projects/Zenda/Zenda.Service/obj/Release/net8.0/ref/zenda-service.dll

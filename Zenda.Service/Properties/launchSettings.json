@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Zenda.Service": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
